@@ -1,15 +1,15 @@
 # Юридический отдел
 - type: job
   id: Justice
-  name: судья
-  description: Организуйте судебные процессы, нотариально заверяйте документы, рассматривайте обвинения и при необходимости выступайте в качестве судьи.
+  name: job-name-justice
+  description: job-description-justice
   playTimeTracker: JobJustice
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 # 10 hours
     - !type:RoleTimeRequirement
-      role: JobLawyerr
+      role: JobLawyer
       time: 36000 # 10 hours
     - !type:RoleTimeRequirement
       role: JobProsecutor

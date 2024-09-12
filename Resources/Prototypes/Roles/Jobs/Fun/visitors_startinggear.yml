@@ -1199,7 +1199,6 @@
     gloves: ClothingHandsGlovesLeather
     head: BladedFlatcapBrown
     neck: ClothingNeckLawyerbadge
-    id: VisitorLawyerPDA
     back: ClothingBackpackSatchelLeather
     belt: ClothingBeltStorageWaistbag
     eyes: ClothingEyesGlassesSunglasses

@@ -26,7 +26,6 @@ job-name-deathsquad = Centcomm Agent
 job-name-reporter = репортёр
 job-name-musician = музыкант
 job-name-librarian = библиотекарь
-job-name-lawyer = адвокат
 job-name-mime = мим
 job-name-ce = старший инженер
 job-name-janitor = уборщик
@@ -49,6 +48,7 @@ job-name-ertjanitor = уборщик ОБР
 job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
 job-name-visitor = посетитель
+
 # unused jobs
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
@@ -85,7 +85,6 @@ JobERTSecurity = офицер безопасности ОБР
 JobHeadOfPersonnel = глава персонала
 JobHeadOfSecurity = глава службы безопасности
 JobJanitor = уборщик
-JobLawyer = адвокат
 JobLibrarian = библиотекарь
 JobMedicalDoctor = врач
 JobMedicalIntern = интерн
@@ -110,3 +109,15 @@ JobWarden = смотритель
 JobVisitor = посетитель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
+
+#Voidkol
+job-name-chief_justice = верховный судья
+job-name-justice = судья
+job-name-lawyer = адвокат
+job-name-prosecutor = прокурор
+
+#Voidkol
+JobChiefJustice = верховный судья
+JobJustice = судья
+JobLawyer = адвокат
+JobProsecutor = прокурор

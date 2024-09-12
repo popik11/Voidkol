@@ -6,7 +6,7 @@
   id: JobJustice
 
 - type: playTimeTracker
-  id: JobLawyerr
+  id: JobLawyer
 
 - type: playTimeTracker
   id: JobProsecutor

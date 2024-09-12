@@ -26,7 +26,6 @@ job-name-deathsquad = Centcomm Agent
 job-name-reporter = Reporter
 job-name-musician = Musician
 job-name-librarian = Librarian
-job-name-lawyer = Lawyer
 job-name-mime = Mime
 job-name-ce = Chief Engineer
 job-name-janitor = Janitor
@@ -88,7 +87,6 @@ JobERTSecurity = ERT Security
 JobHeadOfPersonnel = Head of Personnel
 JobHeadOfSecurity = Head of Security
 JobJanitor = Janitor
-JobLawyer = Lawyer
 JobLibrarian = Librarian
 JobMedicalDoctor = Medical doctor
 JobMedicalIntern = Medical intern
@@ -112,3 +110,15 @@ JobTechnicalAssistant = Technical Assistant
 JobVisitor = Visitor
 JobWarden = Warden
 JobZookeeper = Zookeeper
+
+#Voidkol
+job-name-chief_justice = Chief Justice
+job-name-justice = Justice
+job-name-lawyer = Lawyer
+job-name-prosecutor = Prosecutor
+
+#Voidkol
+JobChiefJustice = Chief Justice
+JobJustice = Justice
+JobLawyer = Lawyer
+JobProsecutor = Prosecutor

@@ -140919,7 +140919,7 @@ entities:
   - uid: 23890
     components:
     - type: MetaData
-      desc: ЭТА ИГРУШКА ДОЛЖНА СОБИРАТЬ РИС ВО ИМЯ ВЕЛИКОЙ ПАРТИИ ВОЙДКОЛ!!!
+      desc: ЭТА ИГРУШКА ДОЛЖНА СОБИРАТЬ РИС ВО ИМЯ ВЕЛИКОЙ ПАРТИИ НАНОТРАЗЕН!!!
       name: плюшевая Наима-Шарлиз
     - type: Transform
       pos: 32.384766,17.414888
@@ -141553,7 +141553,7 @@ entities:
     - type: Transform
       pos: -34.5,-10.5
       parent: 2
-- proto: PosterLegitNanoTrasenLogo
+- proto: PosterLegitNanotrasenLogo
   entities:
   - uid: 22611
     components:
@@ -152326,7 +152326,7 @@ entities:
     - type: Transform
       pos: -65.5,-10.5
       parent: 2
-- proto: ShippingContainerNanoTrasen
+- proto: ShippingContainerNanotrasen
   entities:
   - uid: 18125
     components:
@@ -155814,7 +155814,7 @@ entities:
     - type: Transform
       pos: 15.5,5.5
       parent: 2
-- proto: SignNanoTrasen1
+- proto: SignNanotrasen1
   entities:
   - uid: 18594
     components:
@@ -155828,7 +155828,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 53.5,-0.5
       parent: 2
-- proto: SignNanoTrasen2
+- proto: SignNanotrasen2
   entities:
   - uid: 18595
     components:
@@ -155842,7 +155842,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 54.5,-0.5
       parent: 2
-- proto: SignNanoTrasen3
+- proto: SignNanotrasen3
   entities:
   - uid: 18596
     components:
@@ -155856,7 +155856,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 55.5,-0.5
       parent: 2
-- proto: SignNanoTrasen4
+- proto: SignNanotrasen4
   entities:
   - uid: 18597
     components:
@@ -155870,7 +155870,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 56.5,-0.5
       parent: 2
-- proto: SignNanoTrasen5
+- proto: SignNanotrasen5
   entities:
   - uid: 18598
     components:

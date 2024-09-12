@@ -29,7 +29,6 @@ job-description-hop = Handle access reassignment fairly using your ID console, m
 job-description-hos = Manage your security force and keep them efficient, quell dissent, and keep the other heads of staff safe.
 job-description-intern = Learn the basics of administering medicine, basic chemicals and using medical tools.
 job-description-janitor = Keep the station clean of any trash or slipping hazards, and help deal with rat infestations.
-job-description-lawyer = Ensure that every prisoner or criminal receives a fair judgment and trial if necessary.
 job-description-librarian = Manage the library, give out knowledge to any who seek it, and report on activities aboard the station.
 job-description-mime = Entertain the crew through non-vocal means, and engage with light rivalry with the clown.
 job-description-musician = Entertain the crew with your unique musical talent, and acquire new instruments to mess around with.
@@ -47,3 +46,9 @@ job-description-station-ai = Follow your laws, serve the crew.
 job-description-visitor = Enjoy your visit to the station.
 job-description-warden = Patrol the security department, ensure that no one is stealing from the armory, and make sure that all prisoners are processed and let out when their time is up.
 job-description-zookeeper = Put on a joyful display of cute animals and space carps for all the crew to see. Currently available on Cog and Oasis.
+
+#Voidkol
+job-description-chief-justice = Lead the legal department, serve as a judge, and ensure that everyone is treated fairly.
+job-description-justice = Organize court proceedings, notarize documents, review charges, and act as a judge when necessary.
+job-description-lawyer = Ensure a fair investigation and trial for every prisoner or criminal.
+job-description-prosecutor = Accept reports from the security department and prepare cases against those accused of committing crimes.

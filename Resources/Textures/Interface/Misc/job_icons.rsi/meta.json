@@ -57,9 +57,6 @@
             "name": "Chaplain"
         },
         {
-            "name": "Lawyer"
-        },
-        {
             "name": "Unknown"
         },
         {
@@ -148,9 +145,6 @@
         },
         {
             "name": "SecurityCadet"
-        },
-        {
-            "name": "IAA"
         },
         {
             "name": "Zombie"

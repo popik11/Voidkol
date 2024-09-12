@@ -53140,7 +53140,7 @@ entities:
     - type: Transform
       pos: -33.32176,-27.397228
       parent: 2
-- proto: ClothingUniformJumpsuitVoidkol
+- proto: ClothingUniformJumpsuitNanotrasen
   entities:
   - uid: 6014
     components:
@@ -93373,7 +93373,7 @@ entities:
 
         [color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]
 
-        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]Voidkol[/head]
+        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]
 
         [color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] Maus Station ЦК-СБ[/bold]
 
@@ -93757,7 +93757,7 @@ entities:
 
         [color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]
 
-        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]Voidkol[/head]
+        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]
 
         [color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] Maus Station ЦК-СБ[/bold]
 
@@ -93865,7 +93865,7 @@ entities:
 
         [color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]
 
-        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]Voidkol[/head]
+        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]
 
         [color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] Maus Station ЦК-СБ[/bold]
 
@@ -95419,7 +95419,7 @@ entities:
     - type: Transform
       pos: -63.5,-33.5
       parent: 2
-- proto: PosterLegitVoidkolLogo
+- proto: PosterLegitNanotrasenLogo
   entities:
   - uid: 10355
     components:
@@ -133239,7 +133239,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 6.5,15.5
       parent: 16090
-- proto: WeaponTurretVoidkol
+- proto: WeaponTurretNanoTrasen
   entities:
   - uid: 3142
     components:

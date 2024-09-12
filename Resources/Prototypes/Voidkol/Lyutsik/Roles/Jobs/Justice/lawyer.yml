@@ -1,9 +1,9 @@
 # Юридический отдел
 - type: job
-  id: Lawyerr
-  name: адвокат
-  description: Добейтесь справедливого следствия и суда для каждого заключённого или преступника.
-  playTimeTracker: JobLawyerr
+  id: Lawyer
+  name: job-name-lawyer
+  description: job-description-lawyer
+  playTimeTracker: JobLawyer
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
@@ -13,13 +13,13 @@
     - !type:AgeRequirement
       requiredAge: 21
   startingGear: HoPGear
-  icon: "JobIconLawyerr"
+  icon: "JobIconLawyer"
   supervisors: job-supervisors-cj
   access:
   - Security
 
 #- type: startingGear
-#  id: LawyerrGear
+#  id: LawyerGear
 #  equipment:
 #    jumpsuit:
 #    back:

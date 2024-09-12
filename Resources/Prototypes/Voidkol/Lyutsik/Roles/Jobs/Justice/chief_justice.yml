@@ -1,15 +1,15 @@
 # Юридический отдел
 - type: job
   id: ChiefJustice
-  name: верховный судья
-  description: Руководите юридическим отделом, выступайте в роли судьи и следите за тем, чтобы ко всем относились справедливо.
+  name: job-name-chief_justice
+  description: job-description-chief-justice
   playTimeTracker: JobChiefJustice
   requirements:
     - !type:RoleTimeRequirement
       role: JobJustice
       time: 36000 # 10 hours
     - !type:RoleTimeRequirement
-      role: JobLawyerr
+      role: JobLawyer
       time: 18000 # 5 hours
     - !type:RoleTimeRequirement
       role: JobProsecutor

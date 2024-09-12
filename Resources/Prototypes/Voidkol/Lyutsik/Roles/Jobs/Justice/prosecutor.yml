@@ -1,8 +1,8 @@
 # Юридический отдел
 - type: job
   id: Prosecutor
-  name: прокурор
-  description: Принимайте заявления от службы безопасности и готовьте дела против тех, кто обвиняется в совершении преступлений.
+  name: job-name-prosecutor
+  description: job-description-prosecutor
   playTimeTracker: JobProsecutor
   requirements:
     - !type:DepartmentTimeRequirement

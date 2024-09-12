@@ -426,7 +426,7 @@
     - type: RandomMetadata
       nameSegments:
       - names_clown
-      
+
 - type: randomHumanoidSettings
   id: VisitorJanitor
   parent: VisitorCivilian
@@ -437,15 +437,15 @@
       prototypes: [ VisitorJanitor, VisitorJanitorAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
 
-- type: randomHumanoidSettings
-  id: VisitorLawyer
-  parent: VisitorCivilian
-  components:
-    - type: GhostRole
-      name: job-name-lawyer
-    - type: Loadout
-      prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
-      roleLoadout: [ RoleSurvivalStandard ]
+#- type: randomHumanoidSettings
+#  id: VisitorLawyer
+#  parent: VisitorCivilian
+#  components:
+#    - type: GhostRole
+#      name: job-name-lawyer
+#    - type: Loadout
+#      prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
+#      roleLoadout: [ RoleSurvivalStandard ]
 
 - type: randomHumanoidSettings
   id: VisitorLawyerCentcom

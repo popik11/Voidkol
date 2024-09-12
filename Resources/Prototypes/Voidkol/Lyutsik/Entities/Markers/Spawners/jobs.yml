@@ -36,16 +36,16 @@
       - state: justice
 
 - type: entity
-  id: SpawnPointLawyerr
+  id: SpawnPointLawyer
   parent: SpawnPointJobBaseVoidkol
-  name: lawyerr
+  name: lawyer
   components:
   - type: SpawnPoint
-    job_id: Lawyerr
+    job_id: Lawyer
   - type: Sprite
     layers:
       - state: green
-      - state: lawyerr
+      - state: lawyer
 
 - type: entity
   id: SpawnPointProsecutor

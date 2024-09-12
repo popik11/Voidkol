@@ -8,5 +8,5 @@
   roles:
   - ChiefJustice # Верховный судья
   - Justice # Судья
-  - Lawyerr # Адвокат
+  - Lawyer # Адвокат
   - Prosecutor # Прокуро
