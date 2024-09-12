@@ -1,0 +1,32 @@
+# Юридический отдел
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconChiefJustice
+  icon:
+    sprite: /Textures/Voidkol/Lyutsik/Interface/Misc/job_icons.rsi
+    state: ChiefJustice
+  jobName: job-name-chief-justice
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconJustice
+  icon:
+    sprite: /Textures/Voidkol/Lyutsik/Interface/Misc/job_icons.rsi
+    state: Justice
+  jobName: job-name-justice
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconLawyerr
+  icon:
+    sprite: /Textures/Voidkol/Lyutsik/Interface/Misc/job_icons.rsi
+    state: Lawyerr
+  jobName: job-name-lawyerr
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconProsecutor
+  icon:
+    sprite: /Textures/Voidkol/Lyutsik/Interface/Misc/job_icons.rsi
+    state: Prosecutor
+  jobName: job-name-prosecutor

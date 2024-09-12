@@ -1,0 +1,32 @@
+# Юридический отдел
+- type: job
+  id: Prosecutor
+  name: прокурор
+  description: Принимайте заявления от службы безопасности и готовьте дела против тех, кто обвиняется в совершении преступлений.
+  playTimeTracker: JobProsecutor
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 7200 # 2 hours
+    - !type:OverallPlaytimeRequirement
+      time: 36000 # 10 hours
+    - !type:AgeRequirement
+      requiredAge: 21
+  startingGear: HoPGear
+  icon: "JobIconProsecutor"
+  supervisors: job-supervisors-cj
+  access:
+  - Security
+
+#- type: startingGear
+#  id: ProsecutorGear
+#  equipment:
+#    jumpsuit:
+#    neck:
+#    back:
+#    shoes:
+#    id:
+#    ears:
+#  innerClothingSkirt:
+#  satchel:
+#  duffelbag:

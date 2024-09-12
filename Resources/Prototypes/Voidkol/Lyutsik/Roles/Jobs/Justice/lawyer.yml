@@ -1,0 +1,31 @@
+# Юридический отдел
+- type: job
+  id: Lawyerr
+  name: адвокат
+  description: Добейтесь справедливого следствия и суда для каждого заключённого или преступника.
+  playTimeTracker: JobLawyerr
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 14400 # 4 hours
+    - !type:OverallPlaytimeRequirement
+      time: 36000 # 10 hours
+    - !type:AgeRequirement
+      requiredAge: 21
+  startingGear: HoPGear
+  icon: "JobIconLawyerr"
+  supervisors: job-supervisors-cj
+  access:
+  - Security
+
+#- type: startingGear
+#  id: LawyerrGear
+#  equipment:
+#    jumpsuit:
+#    back:
+#    shoes:
+#    id:
+#    ears:
+#  innerClothingSkirt:
+#  satchel:
+#  duffelbag:

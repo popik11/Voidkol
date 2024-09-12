@@ -1,0 +1,12 @@
+# Юридический отдел
+- type: department
+  id: Justice
+  name: department-Justice
+  description: department-Justice-description
+  color: "#DE3A3A"
+  weight: 50
+  roles:
+  - ChiefJustice # Верховный судья
+  - Justice # Судья
+  - Lawyerr # Адвокат
+  - Prosecutor # Прокуро

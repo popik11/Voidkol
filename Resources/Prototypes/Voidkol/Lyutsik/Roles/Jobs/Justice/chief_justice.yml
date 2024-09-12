@@ -1,0 +1,50 @@
+# Юридический отдел
+- type: job
+  id: ChiefJustice
+  name: верховный судья
+  description: Руководите юридическим отделом, выступайте в роли судьи и следите за тем, чтобы ко всем относились справедливо.
+  playTimeTracker: JobChiefJustice
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobJustice
+      time: 36000 # 10 hours
+    - !type:RoleTimeRequirement
+      role: JobLawyerr
+      time: 18000 # 5 hours
+    - !type:RoleTimeRequirement
+      role: JobProsecutor
+      time: 36000 # 10 hours
+    - !type:OverallPlaytimeRequirement
+      time: 90000 # 25 hours
+    - !type:AgeRequirement
+      requiredAge: 21
+  weight: 20
+  startingGear: HoPGear
+  icon: "JobIconChiefJustice"
+  requireAdminNotify: true
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Command
+  - Security
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+#- type: startingGear
+#  id: ChiefJusticeGear
+#  equipment:
+#    jumpsuit:
+#    back:
+#    shoes:
+#    head:
+#    outerClothing:
+#    id:
+#    ears:
+#    gloves:
+#  innerClothingSkirt:
+#  satchel:
+#  duffelbag:
