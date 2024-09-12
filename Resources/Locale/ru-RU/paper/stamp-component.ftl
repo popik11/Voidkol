@@ -18,3 +18,8 @@ stamp-component-stamped-name-trader = Торговец
 stamp-component-stamped-name-syndicate = Синдикат
 stamp-component-stamped-name-ce = Старший инженер
 stamp-component-stamped-name-greytide = Грейтайд
+
+# Юридический отдел
+stamp-component-stamped-name-chief_justice = Верховный судья
+stamp-component-stamped-name-justice = Судья
+stamp-component-stamped-name-prosecutor = Прокурор
