@@ -23,20 +23,24 @@
   canBeAntag: false
   access:
   - Security
+  - Brig
   - Lawyer
+  - Service
+  - External
   - Maintenance
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 
-#- type: startingGear
-#  id: JusticeGear
-#  equipment:
-#    jumpsuit:
-#    back:
-#    shoes:
-#    id:
-#    ears:
-#  innerClothingSkirt:
-#  satchel:
-#  duffelbag:
+- type: startingGear
+  id: JusticeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsLaceup
+    outerClothing: ClothingOuterRobesJudge
+    id: JusticePDA
+    eyes: ClothingEyesGlassesCommand
+    ears: ClothingHeadsetJustice
+  inhand:
+  - BriefcaseJustice

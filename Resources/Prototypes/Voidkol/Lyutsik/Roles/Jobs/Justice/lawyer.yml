@@ -17,17 +17,20 @@
   supervisors: job-supervisors-cj
   access:
   - Security
+  - Brig
   - Lawyer
+  - Service
+  - External
   - Maintenance
 
-#- type: startingGear
-#  id: LawyerGear
-#  equipment:
-#    jumpsuit:
-#    back:
-#    shoes:
-#    id:
-#    ears:
-#  innerClothingSkirt:
-#  satchel:
-#  duffelbag:
+- type: startingGear
+  id: LawyerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsLaceup
+    id: LawyerPDA
+    eyes: ClothingEyesGlassesSunglasses
+    ears: ClothingHeadsetJustice
+  inhand:
+  - BriefcaseLawyer
