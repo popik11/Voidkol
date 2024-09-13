@@ -23,6 +23,11 @@
   canBeAntag: false
   access:
   - Security
+  - Lawyer
+  - Maintenance
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 #- type: startingGear
 #  id: JusticeGear

@@ -17,6 +17,8 @@
   supervisors: job-supervisors-cj
   access:
   - Security
+  - Lawyer
+  - Maintenance
 
 #- type: startingGear
 #  id: ProsecutorGear

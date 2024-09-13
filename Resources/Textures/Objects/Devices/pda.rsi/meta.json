@@ -223,6 +223,12 @@
     {
       "name": "pda-seniorofficer"
     },
+        {
+      "name": "pda-chief_justice"
+    },
+        {
+      "name": "pda-justice"
+    },
     {
       "name": "equipped-IDCARD",
       "directions": 4

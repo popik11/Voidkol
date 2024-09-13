@@ -27,6 +27,8 @@
   access:
   - Command
   - Security
+  - Lawyer
+  - Maintenance
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

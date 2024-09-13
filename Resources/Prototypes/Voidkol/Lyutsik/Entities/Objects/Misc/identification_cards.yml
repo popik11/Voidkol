@@ -1,0 +1,48 @@
+# Юридический отдел
+- type: entity
+  parent: IDCardStandard
+  id: ChiefJusticeIDCard
+  name: ID карта верховного судьи
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idchief-justice
+  - type: PresetIdCard
+    job: ChiefJustice
+
+- type: entity
+  parent: IDCardStandard
+  id: JusticeIDCard
+  name: ID карта судьи
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idjustice
+  - type: PresetIdCard
+    job: Justice
+
+- type: entity
+  parent: IDCardStandard
+  id: LawyerIDCard
+  name: ID карта адвоката
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idlawyer
+  - type: PresetIdCard
+    job: Lawyer
+
+- type: entity
+  parent: IDCardStandard
+  id: ProsecutorIDCard
+  name: ID карта прокурора
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idprosecutor
+  - type: PresetIdCard
+    job: Prosecutor
