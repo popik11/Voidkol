@@ -10880,7 +10880,7 @@ entities:
       pos: -42.5,29.5
       parent: 5350
     - type: Door
-      secondsUntilStateChange: -6031.553
+      secondsUntilStateChange: -5682.053
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 2
@@ -15393,6 +15393,11 @@ entities:
     components:
     - type: Transform
       pos: -4.5,-13.5
+      parent: 5350
+  - uid: 3065
+    components:
+    - type: Transform
+      pos: 11.5,-4.5
       parent: 5350
   - uid: 17582
     components:
@@ -120219,18 +120224,6 @@ entities:
     - type: Transform
       pos: -26.28364,-10.470074
       parent: 5350
-- proto: PaperBin20
-  entities:
-  - uid: 3065
-    components:
-    - type: Transform
-      pos: 12.5,19.5
-      parent: 5350
-  - uid: 26986
-    components:
-    - type: Transform
-      pos: -2.5,29.5
-      parent: 5350
 - proto: PaperCaptainsThoughts
   entities:
   - uid: 11033
@@ -121699,6 +121692,13 @@ entities:
     - type: Transform
       pos: 10.5,27.5
       parent: 5350
+- proto: PottedPlant8
+  entities:
+  - uid: 10533
+    components:
+    - type: Transform
+      pos: 13.5,17.5
+      parent: 5350
 - proto: PottedPlantBioluminscent
   entities:
   - uid: 10769
@@ -121935,6 +121935,11 @@ entities:
     components:
     - type: Transform
       pos: 0.5,13.5
+      parent: 5350
+  - uid: 14590
+    components:
+    - type: Transform
+      pos: -9.5,-28.5
       parent: 5350
   - uid: 15680
     components:
@@ -126461,68 +126466,6 @@ entities:
       parent: 5350
     - type: ApcPowerReceiver
       powerLoad: 0
-- proto: PrinterDoc
-  entities:
-  - uid: 10130
-    components:
-    - type: Transform
-      pos: -9.5,-28.5
-      parent: 5350
-  - uid: 26985
-    components:
-    - type: Transform
-      pos: 14.5,18.5
-      parent: 5350
-  - uid: 26987
-    components:
-    - type: Transform
-      pos: -4.5,28.5
-      parent: 5350
-  - uid: 26988
-    components:
-    - type: Transform
-      pos: 4.5,34.5
-      parent: 5350
-  - uid: 26989
-    components:
-    - type: Transform
-      pos: 52.5,3.5
-      parent: 5350
-  - uid: 26990
-    components:
-    - type: Transform
-      pos: 10.5,-26.5
-      parent: 5350
-  - uid: 26991
-    components:
-    - type: Transform
-      pos: -18.5,-31.5
-      parent: 5350
-  - uid: 26992
-    components:
-    - type: Transform
-      pos: -28.5,2.5
-      parent: 5350
-  - uid: 26993
-    components:
-    - type: Transform
-      pos: -35.5,9.5
-      parent: 5350
-  - uid: 26994
-    components:
-    - type: Transform
-      pos: 2.5,1.5
-      parent: 5350
-  - uid: 26995
-    components:
-    - type: Transform
-      pos: -18.5,-1.5
-      parent: 5350
-  - uid: 26996
-    components:
-    - type: Transform
-      pos: 11.5,-4.5
-      parent: 5350
 - proto: Protolathe
   entities:
   - uid: 9805
@@ -137214,13 +137157,6 @@ entities:
     - type: Transform
       pos: 34.5,-15.5
       parent: 5350
-- proto: SpawnMobGorillaLargo
-  entities:
-  - uid: 4006
-    components:
-    - type: Transform
-      pos: -29.5,14.5
-      parent: 5350
 - proto: SpawnMobMcGriff
   entities:
   - uid: 8224
@@ -137285,6 +137221,13 @@ entities:
     components:
     - type: Transform
       pos: 44.5,8.5
+      parent: 5350
+- proto: SpawnMobRaccoonMorticia
+  entities:
+  - uid: 4006
+    components:
+    - type: Transform
+      pos: -29.5,14.5
       parent: 5350
 - proto: SpawnMobShiva
   entities:
@@ -137439,13 +137382,6 @@ entities:
     - type: Transform
       pos: 45.5,8.5
       parent: 5350
-- proto: SpawnPointChiefJustice
-  entities:
-  - uid: 10131
-    components:
-    - type: Transform
-      pos: 11.5,20.5
-      parent: 5350
 - proto: SpawnPointChiefMedicalOfficer
   entities:
   - uid: 15616
@@ -137493,13 +137429,6 @@ entities:
     - type: Transform
       pos: -25.5,27.5
       parent: 5350
-- proto: SpawnPointJustice
-  entities:
-  - uid: 10533
-    components:
-    - type: Transform
-      pos: 12.5,21.5
-      parent: 5350
 - proto: SpawnPointLatejoin
   entities:
   - uid: 5046
@@ -137544,10 +137473,15 @@ entities:
       parent: 5350
 - proto: SpawnPointLawyer
   entities:
-  - uid: 14590
+  - uid: 10130
     components:
     - type: Transform
-      pos: 11.5,18.5
+      pos: 11.5,20.5
+      parent: 5350
+  - uid: 10131
+    components:
+    - type: Transform
+      pos: 13.5,18.5
       parent: 5350
 - proto: SpawnPointLibrarian
   entities:
@@ -137669,13 +137603,6 @@ entities:
     components:
     - type: Transform
       pos: 21.5,7.5
-      parent: 5350
-- proto: SpawnPointProsecutor
-  entities:
-  - uid: 26984
-    components:
-    - type: Transform
-      pos: 12.5,18.5
       parent: 5350
 - proto: SpawnPointQuartermaster
   entities:

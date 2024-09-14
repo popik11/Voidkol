@@ -1,17 +1,11 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - box
-  - bagel
-  - cog
-  - core
-  - corvax_astra
-  - corvax_avrite
-  - corvax_delta
-  - corvax_frame
-  - corvax_ishimura
-  - corvax_maus
-  - corvax_paper
-  - fland
-  - marathon
-  - meta
+  - CorvaxDelta
+  - CorvaxAstra
+  - CorvaxMaus
+  - Bagel
+  - Box
+  - Cog
+  - Core
+  - Omega

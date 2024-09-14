@@ -69701,22 +69701,10 @@ entities:
     - type: Transform
       pos: -49.5,-15.5
       parent: 60
-  - uid: 4359
-    components:
-    - type: Transform
-      pos: 3.5,-30.5
-      parent: 60
   - uid: 5297
     components:
     - type: Transform
       pos: -22.5,-29.5
-      parent: 60
-- proto: filingCabinetTallRandom
-  entities:
-  - uid: 134
-    components:
-    - type: Transform
-      pos: 49.5,-17.5
       parent: 60
 - proto: FireAlarm
   entities:
@@ -114017,6 +114005,11 @@ entities:
       parent: 60
 - proto: PottedPlant19
   entities:
+  - uid: 9600
+    components:
+    - type: Transform
+      pos: -40.522816,2.2133622
+      parent: 60
   - uid: 23084
     components:
     - type: Transform
@@ -117906,60 +117899,45 @@ entities:
       powerLoad: 0
 - proto: PrinterDoc
   entities:
-  - uid: 7143
-    components:
-    - type: Transform
-      pos: -50.5,-15.5
-      parent: 60
-  - uid: 9600
-    components:
-    - type: Transform
-      pos: -40.5,2.5
-      parent: 60
-  - uid: 23892
-    components:
-    - type: Transform
-      pos: -4.5,-5.5
-      parent: 60
-  - uid: 23893
-    components:
-    - type: Transform
-      pos: -0.5,1.5
-      parent: 60
-  - uid: 23894
+  - uid: 134
     components:
     - type: Transform
       pos: -22.5,-16.5
       parent: 60
+  - uid: 4271
+    components:
+    - type: Transform
+      pos: 3.5,-30.5
+      parent: 60
+  - uid: 4359
+    components:
+    - type: Transform
+      pos: 49.5,-17.5
+      parent: 60
+  - uid: 23892
+    components:
+    - type: Transform
+      pos: -50.5,-15.5
+      parent: 60
+  - uid: 23893
+    components:
+    - type: Transform
+      pos: -1.5,-0.5
+      parent: 60
+  - uid: 23894
+    components:
+    - type: Transform
+      pos: 50.5,6.5
+      parent: 60
   - uid: 23895
     components:
     - type: Transform
-      pos: 3.5,-28.5
+      pos: 4.5,17.5
       parent: 60
   - uid: 23896
     components:
     - type: Transform
-      pos: 48.5,-18.5
-      parent: 60
-  - uid: 23897
-    components:
-    - type: Transform
-      pos: 34.5,-16.5
-      parent: 60
-  - uid: 23898
-    components:
-    - type: Transform
-      pos: 51.5,14.5
-      parent: 60
-  - uid: 23899
-    components:
-    - type: Transform
-      pos: 1.5,17.5
-      parent: 60
-  - uid: 23900
-    components:
-    - type: Transform
-      pos: -42.5,-4.5
+      pos: -45.5,0.5
       parent: 60
 - proto: Protolathe
   entities:
@@ -131155,7 +131133,7 @@ entities:
       parent: 60
 - proto: SpawnPointChiefJustice
   entities:
-  - uid: 23890
+  - uid: 6881
     components:
     - type: Transform
       pos: -49.5,-18.5
@@ -131214,7 +131192,7 @@ entities:
       parent: 60
 - proto: SpawnPointJustice
   entities:
-  - uid: 23891
+  - uid: 7143
     components:
     - type: Transform
       pos: -49.5,-17.5
@@ -131263,7 +131241,7 @@ entities:
       parent: 60
 - proto: SpawnPointLawyer
   entities:
-  - uid: 6881
+  - uid: 23890
     components:
     - type: Transform
       pos: -40.5,-18.5
@@ -131366,7 +131344,7 @@ entities:
       parent: 60
 - proto: SpawnPointProsecutor
   entities:
-  - uid: 4271
+  - uid: 23891
     components:
     - type: Transform
       pos: -46.5,-18.5
