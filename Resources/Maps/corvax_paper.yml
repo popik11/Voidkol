@@ -55614,6 +55614,11 @@ entities:
       parent: 15969
 - proto: CircuitImprinter
   entities:
+  - uid: 5314
+    components:
+    - type: Transform
+      pos: 36.5,10.5
+      parent: 2
   - uid: 5718
     components:
     - type: Transform
@@ -57617,7 +57622,7 @@ entities:
   - uid: 11234
     components:
     - type: Transform
-      pos: 21.559338,10.585672
+      pos: 20.166698,9.899064
       parent: 2
 - proto: ClothingNeckSyndicakePin
   entities:
@@ -58838,13 +58843,6 @@ entities:
     components:
     - type: Transform
       pos: 5.5,9.5
-      parent: 2
-- proto: ComputerShuttleSalvage
-  entities:
-  - uid: 6047
-    components:
-    - type: Transform
-      pos: 1.5,17.5
       parent: 2
 - proto: ComputerSolarControl
   entities:
@@ -67260,13 +67258,6 @@ entities:
     components:
     - type: Transform
       pos: 43.5,30.5
-      parent: 2
-- proto: filingCabinetDrawer
-  entities:
-  - uid: 7175
-    components:
-    - type: Transform
-      pos: 36.5,10.5
       parent: 2
 - proto: filingCabinetRandom
   entities:
@@ -105907,11 +105898,21 @@ entities:
       parent: 15969
 - proto: PrinterDoc
   entities:
+  - uid: 5703
+    components:
+    - type: Transform
+      pos: 52.5,24.5
+      parent: 2
   - uid: 6022
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 17.5,22.5
+      parent: 2
+  - uid: 7175
+    components:
+    - type: Transform
+      pos: 21.5,10.5
       parent: 2
   - uid: 11486
     components:
@@ -105939,6 +105940,11 @@ entities:
     components:
     - type: Transform
       pos: 8.5,20.5
+      parent: 2
+  - uid: 21610
+    components:
+    - type: Transform
+      pos: 47.5,62.5
       parent: 2
 - proto: Protolathe
   entities:
@@ -115835,6 +115841,13 @@ entities:
     - type: Transform
       pos: 40.5,62.5
       parent: 2
+- proto: SpawnPointChiefJustice
+  entities:
+  - uid: 6047
+    components:
+    - type: Transform
+      pos: 6.5,21.5
+      parent: 2
 - proto: SpawnPointChiefMedicalOfficer
   entities:
   - uid: 21511
@@ -115844,16 +115857,6 @@ entities:
       parent: 2
 - proto: SpawnPointClown
   entities:
-  - uid: 5314
-    components:
-    - type: Transform
-      pos: 46.5,17.5
-      parent: 2
-  - uid: 10891
-    components:
-    - type: Transform
-      pos: 50.5,16.5
-      parent: 2
   - uid: 12683
     components:
     - type: Transform
@@ -115887,12 +115890,24 @@ entities:
     - type: Transform
       pos: 65.5,48.5
       parent: 2
+- proto: SpawnPointJustice
+  entities:
+  - uid: 10891
+    components:
+    - type: Transform
+      pos: 6.5,22.5
+      parent: 2
 - proto: SpawnPointLawyer
   entities:
   - uid: 12690
     components:
     - type: Transform
-      pos: 6.5,21.5
+      pos: 8.5,21.5
+      parent: 2
+  - uid: 12929
+    components:
+    - type: Transform
+      pos: 8.5,21.5
       parent: 2
 - proto: SpawnPointLibrarian
   entities:
@@ -115947,11 +115962,6 @@ entities:
       parent: 2
 - proto: SpawnPointMime
   entities:
-  - uid: 5703
-    components:
-    - type: Transform
-      pos: 40.5,17.5
-      parent: 2
   - uid: 12697
     components:
     - type: Transform
@@ -116009,6 +116019,13 @@ entities:
     components:
     - type: Transform
       pos: 29.5,45.5
+      parent: 2
+- proto: SpawnPointProsecutor
+  entities:
+  - uid: 21609
+    components:
+    - type: Transform
+      pos: 8.5,22.5
       parent: 2
 - proto: SpawnPointPsychologist
   entities:
@@ -119111,11 +119128,6 @@ entities:
     components:
     - type: Transform
       pos: 20.5,10.5
-      parent: 2
-  - uid: 12929
-    components:
-    - type: Transform
-      pos: 21.5,10.5
       parent: 2
   - uid: 12930
     components:

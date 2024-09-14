@@ -11579,7 +11579,7 @@ entities:
       pos: 24.5,16.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -15146.963
+      secondsUntilStateChange: -16013.092
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -15484,10 +15484,29 @@ entities:
       parent: 8364
 - proto: BannerCargo
   entities:
+  - uid: 8549
+    components:
+    - type: Transform
+      pos: -20.5,-27.5
+      parent: 8364
   - uid: 27596
     components:
     - type: Transform
       pos: -32.5,-22.5
+      parent: 8364
+- proto: BannerEngineering
+  entities:
+  - uid: 27911
+    components:
+    - type: Transform
+      pos: 1.5,-57.5
+      parent: 8364
+- proto: BannerMedical
+  entities:
+  - uid: 27905
+    components:
+    - type: Transform
+      pos: 24.5,-18.5
       parent: 8364
 - proto: BannerNanotrasen
   entities:
@@ -15495,6 +15514,35 @@ entities:
     components:
     - type: Transform
       pos: -24.5,-9.5
+      parent: 8364
+  - uid: 27912
+    components:
+    - type: Transform
+      pos: 0.5,-8.5
+      parent: 8364
+  - uid: 27913
+    components:
+    - type: Transform
+      pos: -1.5,-8.5
+      parent: 8364
+- proto: BannerScience
+  entities:
+  - uid: 27909
+    components:
+    - type: Transform
+      pos: 65.5,-15.5
+      parent: 8364
+  - uid: 27910
+    components:
+    - type: Transform
+      pos: 67.5,-15.5
+      parent: 8364
+- proto: BannerSecurity
+  entities:
+  - uid: 9713
+    components:
+    - type: Transform
+      pos: 10.5,33.5
       parent: 8364
 - proto: Barricade
   entities:
@@ -65667,11 +65715,6 @@ entities:
         - 0
         - 0
         - 0
-  - uid: 16859
-    components:
-    - type: Transform
-      pos: 1.5,-57.5
-      parent: 8364
   - uid: 19277
     components:
     - type: Transform
@@ -84322,7 +84365,7 @@ entities:
       pos: -34.5,-14.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -9335.5
+      secondsUntilStateChange: -10201.629
       state: Closing
   - uid: 15010
     components:
@@ -120948,6 +120991,13 @@ entities:
     - type: Transform
       pos: -17.476429,42.24517
       parent: 8364
+- proto: HeadSkeleton
+  entities:
+  - uid: 27923
+    components:
+    - type: Transform
+      pos: 66.76566,-76.63247
+      parent: 8364
 - proto: HeatExchanger
   entities:
   - uid: 4529
@@ -123672,6 +123722,26 @@ entities:
     components:
     - type: Transform
       pos: -30.5,-72.5
+      parent: 8364
+- proto: MaterialBones1
+  entities:
+  - uid: 27920
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 66.75004,-77.16372
+      parent: 8364
+  - uid: 27921
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 67.39066,-76.679344
+      parent: 8364
+  - uid: 27922
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 66.50004,-76.398094
       parent: 8364
 - proto: MaterialCloth
   entities:
@@ -126540,6 +126610,11 @@ entities:
     components:
     - type: Transform
       pos: 10.5,35.5
+      parent: 8364
+  - uid: 9714
+    components:
+    - type: Transform
+      pos: -12.5,18.5
       parent: 8364
   - uid: 26561
     components:
@@ -140828,6 +140903,18 @@ entities:
     - type: Transform
       pos: -22.5,-14.5
       parent: 8364
+- proto: SignLawyer
+  entities:
+  - uid: 16859
+    components:
+    - type: Transform
+      pos: -14.5,18.5
+      parent: 8364
+  - uid: 27907
+    components:
+    - type: Transform
+      pos: 13.5,29.5
+      parent: 8364
 - proto: SignLibrary
   entities:
   - uid: 4987
@@ -140892,6 +140979,12 @@ entities:
     - type: Transform
       pos: 64.5,-36.5
       parent: 8364
+  - uid: 27917
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 19.5,22.5
+      parent: 8364
 - proto: SignPlaque
   entities:
   - uid: 5723
@@ -140916,10 +141009,10 @@ entities:
       parent: 8364
 - proto: SignPrison
   entities:
-  - uid: 8549
+  - uid: 27908
     components:
     - type: Transform
-      pos: -6.5,33.5
+      pos: 5.5,29.5
       parent: 8364
 - proto: SignPsychology
   entities:
@@ -141009,6 +141102,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 7.5,6.5
       parent: 8364
+  - uid: 27914
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,25.5
+      parent: 8364
 - proto: SignRedSix
   entities:
   - uid: 27670
@@ -141025,6 +141124,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 7.5,12.5
       parent: 8364
+  - uid: 27916
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -8.5,25.5
+      parent: 8364
 - proto: SignRedTwo
   entities:
   - uid: 27666
@@ -141032,6 +141137,12 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 7.5,9.5
+      parent: 8364
+  - uid: 27915
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,25.5
       parent: 8364
 - proto: SignRND
   entities:
@@ -141226,6 +141337,12 @@ entities:
     components:
     - type: Transform
       pos: 23.5,-36.5
+      parent: 8364
+  - uid: 27918
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 11.5,22.5
       parent: 8364
 - proto: SignSomethingOld
   entities:
@@ -143228,6 +143345,13 @@ entities:
     - type: Transform
       pos: 43.5,0.5
       parent: 8364
+- proto: SpawnMobGorillaLargo
+  entities:
+  - uid: 25879
+    components:
+    - type: Transform
+      pos: -30.5,-26.5
+      parent: 8364
 - proto: SpawnMobLizard
   entities:
   - uid: 20687
@@ -143299,13 +143423,6 @@ entities:
     components:
     - type: Transform
       pos: 44.5,-18.5
-      parent: 8364
-- proto: SpawnMobRaccoonMorticia
-  entities:
-  - uid: 25879
-    components:
-    - type: Transform
-      pos: -30.5,-26.5
       parent: 8364
 - proto: SpawnMobShiva
   entities:
@@ -143460,6 +143577,13 @@ entities:
     - type: Transform
       pos: -3.5,-62.5
       parent: 8364
+- proto: SpawnPointChiefJustice
+  entities:
+  - uid: 22443
+    components:
+    - type: Transform
+      pos: 14.5,28.5
+      parent: 8364
 - proto: SpawnPointChiefMedicalOfficer
   entities:
   - uid: 14697
@@ -143507,6 +143631,13 @@ entities:
     - type: Transform
       pos: 6.5,-34.5
       parent: 8364
+- proto: SpawnPointJustice
+  entities:
+  - uid: 24687
+    components:
+    - type: Transform
+      pos: 16.5,28.5
+      parent: 8364
 - proto: SpawnPointLatejoin
   entities:
   - uid: 12515
@@ -143551,12 +143682,7 @@ entities:
       parent: 8364
 - proto: SpawnPointLawyer
   entities:
-  - uid: 9713
-    components:
-    - type: Transform
-      pos: -11.5,16.5
-      parent: 8364
-  - uid: 9714
+  - uid: 27906
     components:
     - type: Transform
       pos: -11.5,14.5
@@ -143661,6 +143787,13 @@ entities:
     components:
     - type: Transform
       pos: -42.5,3.5
+      parent: 8364
+- proto: SpawnPointProsecutor
+  entities:
+  - uid: 27536
+    components:
+    - type: Transform
+      pos: -11.5,16.5
       parent: 8364
 - proto: SpawnPointPsychologist
   entities:
@@ -171890,6 +172023,14 @@ entities:
     components:
     - type: Transform
       pos: 21.462696,34.988297
+      parent: 8364
+- proto: WeaponShotgunImprovisedLoaded
+  entities:
+  - uid: 27919
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 66.18754,-76.56997
       parent: 8364
 - proto: WeaponSubMachineGunWt550
   entities:

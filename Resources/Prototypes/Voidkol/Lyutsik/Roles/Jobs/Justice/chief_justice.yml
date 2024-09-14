@@ -19,14 +19,13 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 20
-  startingGear: HoPGear
+  startingGear: ChiefJusticeGear
   icon: "JobIconChiefJustice"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:
   - Command
-  - Security
   - Brig
   - Lawyer
   - Service

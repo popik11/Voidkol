@@ -16,13 +16,12 @@
       time: 36000 # 10 hours
     - !type:AgeRequirement
       requiredAge: 21
-  startingGear: HoPGear
+  startingGear: JusticeGear
   icon: "JobIconJustice"
   requireAdminNotify: true
   supervisors: job-supervisors-cj
   canBeAntag: false
   access:
-  - Security
   - Brig
   - Lawyer
   - Service

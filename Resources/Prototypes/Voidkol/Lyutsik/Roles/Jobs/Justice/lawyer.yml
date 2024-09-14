@@ -12,11 +12,10 @@
       time: 36000 # 10 hours
     - !type:AgeRequirement
       requiredAge: 21
-  startingGear: HoPGear
+  startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-cj
   access:
-  - Security
   - Brig
   - Lawyer
   - Service

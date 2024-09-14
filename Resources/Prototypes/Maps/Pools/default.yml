@@ -1,15 +1,17 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Bagel
-  - Box
-  - Cog
-  - Core
-  - Fland
-  - Marathon
-  - Meta
-  - Oasis
-  - Omega
-  - Packed
-  - Reach
-  #- Train
+  - box
+  - bagel
+  - cog
+  - core
+  - corvax_astra
+  - corvax_avrite
+  - corvax_delta
+  - corvax_frame
+  - corvax_ishimura
+  - corvax_maus
+  - corvax_paper
+  - fland
+  - marathon
+  - meta

@@ -14785,11 +14785,6 @@ entities:
       parent: 30
 - proto: BriefcaseBrown
   entities:
-  - uid: 1527
-    components:
-    - type: Transform
-      pos: -50.49086,33.632812
-      parent: 30
   - uid: 5060
     components:
     - type: Transform
@@ -54936,14 +54931,11 @@ entities:
     - type: Physics
       canCollide: False
       bodyType: Static
-  - uid: 3657
+  - uid: 22556
     components:
     - type: Transform
-      pos: 5.5,29.5
+      pos: 4.715932,30.4939
       parent: 30
-    - type: Physics
-      canCollide: False
-      bodyType: Static
 - proto: DiceBag
   entities:
   - uid: 2385
@@ -61457,11 +61449,6 @@ entities:
       parent: 30
 - proto: filingCabinetDrawerRandom
   entities:
-  - uid: 5726
-    components:
-    - type: Transform
-      pos: 2.5,34.5
-      parent: 30
   - uid: 11017
     components:
     - type: Transform
@@ -96433,7 +96420,7 @@ entities:
   - uid: 5691
     components:
     - type: Transform
-      pos: 3.4124203,31.543053
+      pos: 2.3031769,31.638195
       parent: 30
   - uid: 6709
     components:
@@ -101316,26 +101303,6 @@ entities:
     - type: Transform
       pos: -39.485657,11.529657
       parent: 30
-  - uid: 1528
-    components:
-    - type: Transform
-      pos: -52.780983,29.588736
-      parent: 30
-  - uid: 1529
-    components:
-    - type: Transform
-      pos: -52.718483,29.57311
-      parent: 30
-  - uid: 1530
-    components:
-    - type: Transform
-      pos: -52.593483,29.54186
-      parent: 30
-  - uid: 1531
-    components:
-    - type: Transform
-      pos: -52.437233,29.51061
-      parent: 30
   - uid: 2014
     components:
     - type: Transform
@@ -101505,6 +101472,28 @@ entities:
     components:
     - type: Transform
       pos: 23.549414,13.599922
+      parent: 30
+- proto: PaperBin20
+  entities:
+  - uid: 1527
+    components:
+    - type: Transform
+      pos: -48.5,29.5
+      parent: 30
+  - uid: 1529
+    components:
+    - type: Transform
+      pos: -52.5,29.5
+      parent: 30
+  - uid: 22554
+    components:
+    - type: Transform
+      pos: 3.5,31.5
+      parent: 30
+  - uid: 22555
+    components:
+    - type: Transform
+      pos: 5.5,29.5
       parent: 30
 - proto: PaperBin5
   entities:
@@ -102733,11 +102722,6 @@ entities:
       parent: 30
 - proto: PottedPlant23
   entities:
-  - uid: 6675
-    components:
-    - type: Transform
-      pos: -15.5,-4.5
-      parent: 30
   - uid: 10141
     components:
     - type: Transform
@@ -107067,6 +107051,68 @@ entities:
     - type: Transform
       pos: -42.5,22.5
       parent: 30
+- proto: PrinterDoc
+  entities:
+  - uid: 1526
+    components:
+    - type: Transform
+      pos: -77.5,-42.5
+      parent: 30
+  - uid: 1528
+    components:
+    - type: Transform
+      pos: 2.5,34.5
+      parent: 30
+  - uid: 1531
+    components:
+    - type: Transform
+      pos: -15.5,-4.5
+      parent: 30
+  - uid: 1932
+    components:
+    - type: Transform
+      pos: -50.5,33.5
+      parent: 30
+  - uid: 6675
+    components:
+    - type: Transform
+      pos: -30.5,-18.5
+      parent: 30
+  - uid: 16889
+    components:
+    - type: Transform
+      pos: -2.5,-41.5
+      parent: 30
+  - uid: 22544
+    components:
+    - type: Transform
+      pos: 19.5,-5.5
+      parent: 30
+  - uid: 22547
+    components:
+    - type: Transform
+      pos: 17.5,16.5
+      parent: 30
+  - uid: 22550
+    components:
+    - type: Transform
+      pos: -8.5,39.5
+      parent: 30
+  - uid: 22551
+    components:
+    - type: Transform
+      pos: -20.5,37.5
+      parent: 30
+  - uid: 22552
+    components:
+    - type: Transform
+      pos: -41.5,47.5
+      parent: 30
+  - uid: 22553
+    components:
+    - type: Transform
+      pos: -36.5,44.5
+      parent: 30
 - proto: Protolathe
   entities:
   - uid: 12864
@@ -107116,11 +107162,6 @@ entities:
     components:
     - type: Transform
       pos: -38.5,24.5
-      parent: 30
-  - uid: 1526
-    components:
-    - type: Transform
-      pos: -50.5,33.5
       parent: 30
   - uid: 1623
     components:
@@ -116750,6 +116791,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -27.5,5.5
       parent: 30
+- proto: SpawnMobGorillaLargo
+  entities:
+  - uid: 8383
+    components:
+    - type: Transform
+      pos: 26.5,1.5
+      parent: 30
 - proto: SpawnMobKangarooWillow
   entities:
   - uid: 10987
@@ -116807,13 +116855,6 @@ entities:
     components:
     - type: Transform
       pos: -22.5,-5.5
-      parent: 30
-- proto: SpawnMobRaccoonMorticia
-  entities:
-  - uid: 8383
-    components:
-    - type: Transform
-      pos: 26.5,1.5
       parent: 30
 - proto: SpawnMobShiva
   entities:
@@ -116951,6 +116992,13 @@ entities:
     - type: Transform
       pos: -8.5,-34.5
       parent: 30
+- proto: SpawnPointChiefJustice
+  entities:
+  - uid: 5726
+    components:
+    - type: Transform
+      pos: -49.5,29.5
+      parent: 30
 - proto: SpawnPointChiefMedicalOfficer
   entities:
   - uid: 7512
@@ -116998,6 +117046,13 @@ entities:
     - type: Transform
       pos: -31.5,9.5
       parent: 30
+- proto: SpawnPointJustice
+  entities:
+  - uid: 1530
+    components:
+    - type: Transform
+      pos: -50.5,29.5
+      parent: 30
 - proto: SpawnPointLatejoin
   entities:
   - uid: 3656
@@ -117022,11 +117077,6 @@ entities:
       parent: 30
 - proto: SpawnPointLawyer
   entities:
-  - uid: 16889
-    components:
-    - type: Transform
-      pos: -51.5,32.5
-      parent: 30
   - uid: 16890
     components:
     - type: Transform
@@ -117142,6 +117192,13 @@ entities:
     components:
     - type: Transform
       pos: -30.5,32.5
+      parent: 30
+- proto: SpawnPointProsecutor
+  entities:
+  - uid: 3657
+    components:
+    - type: Transform
+      pos: -51.5,32.5
       parent: 30
 - proto: SpawnPointPsychologist
   entities:
@@ -139652,11 +139709,6 @@ entities:
       parent: 30
 - proto: WaterCooler
   entities:
-  - uid: 1932
-    components:
-    - type: Transform
-      pos: -51.5,29.5
-      parent: 30
   - uid: 1933
     components:
     - type: Transform

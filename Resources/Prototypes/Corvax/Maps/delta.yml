@@ -59,6 +59,11 @@
             Paramedic: [ 1, 1 ]
             #silicon
             Borg: [ 2, 3 ]
+            #justice
+            ChiefJustice: [ 1, 1 ]
+            Justice: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            Prosecutor: [ 2, 2 ]
         - type: StationGoal
           goals:
           - Shuttle

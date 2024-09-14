@@ -16413,11 +16413,6 @@ entities:
       parent: 60
 - proto: Bookshelf
   entities:
-  - uid: 7143
-    components:
-    - type: Transform
-      pos: -50.5,-15.5
-      parent: 60
   - uid: 13700
     components:
     - type: Transform
@@ -114022,11 +114017,6 @@ entities:
       parent: 60
 - proto: PottedPlant19
   entities:
-  - uid: 9600
-    components:
-    - type: Transform
-      pos: -40.522816,2.2133622
-      parent: 60
   - uid: 23084
     components:
     - type: Transform
@@ -117914,6 +117904,63 @@ entities:
       parent: 60
     - type: ApcPowerReceiver
       powerLoad: 0
+- proto: PrinterDoc
+  entities:
+  - uid: 7143
+    components:
+    - type: Transform
+      pos: -50.5,-15.5
+      parent: 60
+  - uid: 9600
+    components:
+    - type: Transform
+      pos: -40.5,2.5
+      parent: 60
+  - uid: 23892
+    components:
+    - type: Transform
+      pos: -4.5,-5.5
+      parent: 60
+  - uid: 23893
+    components:
+    - type: Transform
+      pos: -0.5,1.5
+      parent: 60
+  - uid: 23894
+    components:
+    - type: Transform
+      pos: -22.5,-16.5
+      parent: 60
+  - uid: 23895
+    components:
+    - type: Transform
+      pos: 3.5,-28.5
+      parent: 60
+  - uid: 23896
+    components:
+    - type: Transform
+      pos: 48.5,-18.5
+      parent: 60
+  - uid: 23897
+    components:
+    - type: Transform
+      pos: 34.5,-16.5
+      parent: 60
+  - uid: 23898
+    components:
+    - type: Transform
+      pos: 51.5,14.5
+      parent: 60
+  - uid: 23899
+    components:
+    - type: Transform
+      pos: 1.5,17.5
+      parent: 60
+  - uid: 23900
+    components:
+    - type: Transform
+      pos: -42.5,-4.5
+      parent: 60
 - proto: Protolathe
   entities:
   - uid: 7081
@@ -130903,6 +130950,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 25.5,-28.5
       parent: 60
+- proto: SpawnMobGorillaLargo
+  entities:
+  - uid: 13102
+    components:
+    - type: Transform
+      pos: 45.5,13.5
+      parent: 60
 - proto: SpawnMobMcGriff
   entities:
   - uid: 4710
@@ -130955,13 +131009,6 @@ entities:
     components:
     - type: Transform
       pos: 40.5,-8.5
-      parent: 60
-- proto: SpawnMobRaccoonMorticia
-  entities:
-  - uid: 13102
-    components:
-    - type: Transform
-      pos: 45.5,13.5
       parent: 60
 - proto: SpawnMobShiva
   entities:
@@ -131106,6 +131153,13 @@ entities:
     - type: Transform
       pos: 12.5,19.5
       parent: 60
+- proto: SpawnPointChiefJustice
+  entities:
+  - uid: 23890
+    components:
+    - type: Transform
+      pos: -49.5,-18.5
+      parent: 60
 - proto: SpawnPointChiefMedicalOfficer
   entities:
   - uid: 4124
@@ -131158,6 +131212,13 @@ entities:
     - type: Transform
       pos: -9.5,-27.5
       parent: 60
+- proto: SpawnPointJustice
+  entities:
+  - uid: 23891
+    components:
+    - type: Transform
+      pos: -49.5,-17.5
+      parent: 60
 - proto: SpawnPointLatejoin
   entities:
   - uid: 4702
@@ -131202,15 +131263,10 @@ entities:
       parent: 60
 - proto: SpawnPointLawyer
   entities:
-  - uid: 4271
-    components:
-    - type: Transform
-      pos: -49.5,-16.5
-      parent: 60
   - uid: 6881
     components:
     - type: Transform
-      pos: -49.5,-20.5
+      pos: -40.5,-18.5
       parent: 60
 - proto: SpawnPointLibrarian
   entities:
@@ -131307,6 +131363,13 @@ entities:
     components:
     - type: Transform
       pos: 10.5,13.5
+      parent: 60
+- proto: SpawnPointProsecutor
+  entities:
+  - uid: 4271
+    components:
+    - type: Transform
+      pos: -46.5,-18.5
       parent: 60
 - proto: SpawnPointQuartermaster
   entities:
