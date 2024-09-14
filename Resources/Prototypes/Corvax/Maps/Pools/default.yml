@@ -2,10 +2,22 @@
   id: CorvaxDefaultMapPool
   maps:
   - CorvaxDelta
+  - CorvaxAvrite
+  - CorvaxSilly
   - CorvaxAstra
   - CorvaxMaus
+  - CorvaxPaper
+  - CorvaxPilgrim
+  - CorvaxTerra
+  - CorvaxPearl
+  - CorvaxTushkan
   - Bagel
   - Box
-  - Cog
   - Core
+  - Fland
+  - Marathon
+  - Meta
+  - Oasis
   - Omega
+  - Packed
+  #- Train

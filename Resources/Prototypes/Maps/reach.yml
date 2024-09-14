@@ -33,4 +33,8 @@
             StationEngineer: [ 1, 2 ]
             Scientist: [ 1, 1 ]
             Passenger: [ -1, -1 ]
-
+            #justice
+            ChiefJustice: [ 1, 1 ]
+            Justice: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            Prosecutor: [ 2, 2 ]

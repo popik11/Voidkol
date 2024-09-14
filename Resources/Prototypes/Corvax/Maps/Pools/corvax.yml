@@ -1,11 +1,15 @@
 - type: gameMapPool
   id: CorvaxMapPool
   maps:
-  - CorvaxDelta
-  - CorvaxAstra
-  - CorvaxMaus
-  - Bagel
-  - Box
-  - Cog
-  - Core
-  - Omega
+    - CorvaxDelta
+    - CorvaxAvrite
+    - CorvaxSilly
+    - CorvaxAstra
+    - CorvaxMaus
+    - CorvaxPaper
+    - CorvaxPilgrim
+    - CorvaxTerra
+    - CorvaxPearl
+    - CorvaxTushkan
+    - Box
+    #- Train

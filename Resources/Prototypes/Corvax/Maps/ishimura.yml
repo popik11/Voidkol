@@ -35,7 +35,6 @@
             Reporter: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
             # engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 3, 3 ]
@@ -65,3 +64,8 @@
             CargoTechnician: [ 3, 3 ]
             #silicon
             Borg: [ 2, 3 ]
+            #justice
+            ChiefJustice: [ 1, 1 ]
+            Justice: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            Prosecutor: [ 2, 2 ]

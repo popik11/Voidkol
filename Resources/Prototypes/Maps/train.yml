@@ -21,7 +21,6 @@
           availableJobs:
             #service
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 1 ]
             Botanist: [ 2, 2 ]
@@ -51,7 +50,6 @@
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 6, 6 ]
             SecurityCadet: [ 3, 3 ]
-            #Lawyer: [ 1, 2 ] # Corvax-IAA
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
@@ -63,3 +61,8 @@
             Musician: [ 1, 1 ]
             Borg: [ 2, 2 ]
             Reporter: [ 1, 1 ]
+            #justice
+            ChiefJustice: [ 1, 1 ]
+            Justice: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            Prosecutor: [ 2, 2 ]

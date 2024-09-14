@@ -41,7 +41,6 @@
             Zookeeper: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
             # engineering
             AtmosphericTechnician: [ 1, 1 ]
             # medical
@@ -61,6 +60,11 @@
             # cargo
             SalvageSpecialist: [ 1, 1 ]
             CargoTechnician: [ 3, 3 ]
+            #justice
+            ChiefJustice: [ 1, 1 ]
+            Justice: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            Prosecutor: [ 2, 2 ]
         - type: StationGoal
           goals:
             - Artifacts

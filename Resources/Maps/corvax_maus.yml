@@ -3337,9 +3337,14 @@ entities:
             color: '#0000004D'
             id: Bushf1
           decals:
+            5520: -76.70047,-18.194607
+        - node:
+            cleanable: True
+            color: '#0000004D'
+            id: Bushf1
+          decals:
             4089: -73.96151,-65.69581
             4090: -72.35059,-62.132664
-            5520: -76.70047,-18.194607
         - node:
             color: '#FFFFFFFF'
             id: Bushg1
@@ -3422,6 +3427,11 @@ entities:
             id: Bushi2
           decals:
             4083: -78.72527,-75.41436
+        - node:
+            cleanable: True
+            color: '#0000004D'
+            id: Bushi2
+          decals:
             5472: -80.63368,-7.7849817
             5473: -81.59972,-7.7552495
             5474: -79.37042,-7.2943974
@@ -3504,6 +3514,11 @@ entities:
             id: Bushk2
           decals:
             4091: -73.45573,-61.3717
+        - node:
+            cleanable: True
+            color: '#0000004D'
+            id: Bushk2
+          decals:
             5519: -77.14633,-18.0955
         - node:
             cleanable: True
@@ -17730,6 +17745,15 @@ entities:
     - type: Transform
       pos: -47.657867,-76.60009
       parent: 2
+- proto: AntimovCircuitBoard
+  entities:
+  - uid: 19008
+    components:
+    - type: Transform
+      parent: 19000
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: AntiPoisonMedipen
   entities:
   - uid: 15684
@@ -49066,6 +49090,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 7.5,-23.5
       parent: 2
+  - uid: 12373
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -22.5,-49.5
+      parent: 2
   - uid: 17187
     components:
     - type: Transform
@@ -53772,10 +53802,9 @@ entities:
       parent: 2
 - proto: ComputerCargoOrders
   entities:
-  - uid: 1980
+  - uid: 5625
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
       pos: -22.5,-48.5
       parent: 2
   - uid: 6069
@@ -54279,10 +54308,12 @@ entities:
           - 19005
           - 19006
           - 19007
+          - 19008
           - 19009
           - 19010
           - 19011
           - 19012
+          - 19013
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -65473,32 +65504,32 @@ entities:
       pos: -66.53583,-7.299465
       parent: 2
     - type: FoodSequenceStartPoint
-      finished: True
       foodLayers:
       - localOffset: -0.0395758,0
-        scale: 0,0
+        final: False
         sprite:
           sprite: Mobs/Animals/mouse.rsi
           state: dead-0
-        proto: null
+        name: food-sequence-burger-content-rat
       - localOffset: -0.028244665,0
-        scale: 0,0
+        final: False
         sprite:
           sprite: Mobs/Animals/mouse.rsi
           state: dead-0
-        proto: null
+        name: food-sequence-burger-content-rat
       - localOffset: -0.030018983,0
-        scale: 0,0
+        final: False
         sprite:
           sprite: Mobs/Animals/mouse.rsi
           state: dead-0
-        proto: null
+        name: food-sequence-burger-content-rat
       - localOffset: 0.010750033,0
-        scale: 0,0
+        final: True
         sprite:
           sprite: Objects/Consumable/Food/burger.rsi
           state: bun_top
-        proto: null
+        name: null
+      finished: True
     - type: SolutionContainerManager
       solutions: null
       containers:
@@ -93007,6 +93038,15 @@ entities:
     - type: Transform
       pos: -37.502174,-33.4628
       parent: 2
+- proto: OverlordCircuitBoard
+  entities:
+  - uid: 19013
+    components:
+    - type: Transform
+      parent: 19000
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: OxygenCanister
   entities:
   - uid: 10162
@@ -99228,11 +99268,6 @@ entities:
     - type: Transform
       pos: -18.5,-52.5
       parent: 2
-  - uid: 5625
-    components:
-    - type: Transform
-      pos: -22.5,-49.5
-      parent: 2
   - uid: 10844
     components:
     - type: Transform
@@ -99255,36 +99290,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-14.5
-      parent: 2
-  - uid: 19008
-    components:
-    - type: Transform
-      pos: -18.5,-9.5
-      parent: 2
-  - uid: 19013
-    components:
-    - type: Transform
-      pos: -38.5,0.5
-      parent: 2
-  - uid: 19100
-    components:
-    - type: Transform
-      pos: -59.5,-18.5
-      parent: 2
-  - uid: 19101
-    components:
-    - type: Transform
-      pos: -57.5,-32.5
-      parent: 2
-  - uid: 19102
-    components:
-    - type: Transform
-      pos: -42.5,-67.5
-      parent: 2
-  - uid: 19103
-    components:
-    - type: Transform
-      pos: -13.5,-49.5
       parent: 2
 - proto: Protolathe
   entities:
@@ -109109,13 +109114,6 @@ entities:
     - type: Transform
       pos: -52.5,-18.5
       parent: 2
-- proto: SpawnPointChiefJustice
-  entities:
-  - uid: 12373
-    components:
-    - type: Transform
-      pos: -21.5,-26.5
-      parent: 2
 - proto: SpawnPointChiefMedicalOfficer
   entities:
   - uid: 12038
@@ -109168,13 +109166,6 @@ entities:
     - type: Transform
       pos: -4.5,-5.5
       parent: 2
-- proto: SpawnPointJustice
-  entities:
-  - uid: 19104
-    components:
-    - type: Transform
-      pos: -21.5,-25.5
-      parent: 2
 - proto: SpawnPointLatejoin
   entities:
   - uid: 12046
@@ -109189,7 +109180,7 @@ entities:
       parent: 2
 - proto: SpawnPointLawyer
   entities:
-  - uid: 19105
+  - uid: 1980
     components:
     - type: Transform
       pos: -20.5,-26.5
@@ -109296,13 +109287,6 @@ entities:
     components:
     - type: Transform
       pos: -13.5,5.5
-      parent: 2
-- proto: SpawnPointProsecutor
-  entities:
-  - uid: 19106
-    components:
-    - type: Transform
-      pos: -20.5,-27.5
       parent: 2
 - proto: SpawnPointPsychologist
   entities:
@@ -114318,14 +114302,14 @@ entities:
       name: клык дракона
     - type: Transform
       parent: 6763
-    - type: Physics
-      canCollide: False
     - type: Forensics
       residues: []
       dnas: []
       fibers: []
       fingerprints:
       - 4A6C7B92106F4E2FC230A1BD2D1EE687
+    - type: Physics
+      canCollide: False
     missingComponents:
     - Execution
     - DamageOnHighSpeedImpact
