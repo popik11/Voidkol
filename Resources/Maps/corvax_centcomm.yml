@@ -10818,13 +10818,6 @@ entities:
     - type: Transform
       pos: 57.519646,46.48197
       parent: 2
-- proto: BriefcaseIAAFilled
-  entities:
-  - uid: 815
-    components:
-    - type: Transform
-      pos: 63.523243,36.66383
-      parent: 2
 - proto: BrokenBottle
   entities:
   - uid: 816

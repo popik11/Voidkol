@@ -13251,13 +13251,6 @@ entities:
     - type: Transform
       pos: -30.59375,0.1875
       parent: 2
-- proto: BriefcaseIAAFilled
-  entities:
-  - uid: 6201
-    components:
-    - type: Transform
-      pos: 28.579317,-17.965994
-      parent: 2
 - proto: BrigTimer
   entities:
   - uid: 7885
